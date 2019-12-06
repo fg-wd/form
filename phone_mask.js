@@ -13,8 +13,6 @@ function maskTel(phone) {
 	phone = phone.replace(/^(\d{2})(\d)/g,"($1) $2 ");
 	phone = phone.replace(/(\d)(\d{4})$/,"$1 $2");
     return phone;
-    // ^\([1-9]{2}\)\s9\s\d{4}-\d{4}$
-    // /^(\d{2})(\d)/g/(\d)(\d{4})$/
 }
 		
 function id(el) {
